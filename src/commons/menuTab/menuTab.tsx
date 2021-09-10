@@ -1,5 +1,4 @@
 import React from "react";
-import { makeStyles, Theme } from "@material-ui/core/styles";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import DescriptionIcon from "@material-ui/icons/Description";
@@ -43,13 +42,6 @@ function a11yProps(index: any) {
     "aria-controls": `text-to-video-${index}`,
   };
 }
-
-const useStyles = makeStyles((theme: Theme) => ({
-  icon: {
-    width: 200,
-    height: 300,
-  },
-}));
 
 export default function SimpleTabs() {
   const [value, setValue] = React.useState(0);

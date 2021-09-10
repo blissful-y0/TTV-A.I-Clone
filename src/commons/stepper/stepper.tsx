@@ -1,10 +1,4 @@
-import React, {
-  ChangeEvent,
-  ChangeEventHandler,
-  Dispatch,
-  SetStateAction,
-  useState,
-} from "react";
+import React, { ChangeEvent, Dispatch, useState } from "react";
 import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
 import Stepper from "@material-ui/core/Stepper";
 import Step from "@material-ui/core/Step";
@@ -85,6 +79,7 @@ function getStepContent(
 
 export default function VerticalLinearStepper() {
   const classes = useStyles();
+  // eslint-disable-next-line
   const [activeStep, setActiveStep] = React.useState(0);
   const steps = getSteps();
   const [letterCount, setLetterCount] = useState<number>(0);
