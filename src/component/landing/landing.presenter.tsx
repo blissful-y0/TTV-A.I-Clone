@@ -14,6 +14,13 @@ import {
   HeadingContainer,
   Carosel,
   TypoGraphy,
+  FooterContainer,
+  ShutterStockLogo,
+  CopyrightsContainer,
+  TermsOfUse,
+  TermsOfUseContainer,
+  ContactUs,
+  ContactInfo,
 } from "./landing.style";
 
 const LandingUI: React.FunctionComponent = () => {
@@ -57,7 +64,25 @@ const LandingUI: React.FunctionComponent = () => {
       >
         <path d="M0 40h1680V30S1340 0 840 0 0 30 0 30z" fill="#000" />
       </svg>
-      <Footer></Footer>
+      <Footer>
+        <FooterContainer>
+          powered by
+          <ShutterStockLogo src="/ss_logo.svg" />
+        </FooterContainer>
+      </Footer>
+      <CopyrightsContainer>
+        <TermsOfUseContainer>
+          <TermsOfUse>Terms of Use</TermsOfUse>
+        </TermsOfUseContainer>
+        <ContactUs>
+          <ContactInfo>
+            B1, E10Dong, 70, Magokjungang 10-ro, Gangseo-gu, Seoul, Republic of
+            Korea
+          </ContactInfo>
+          <ContactInfo>Founder : John (Yi.su.min)</ContactInfo>
+          <ContactInfo>Email : waynehills.ventures@gmail.com</ContactInfo>
+        </ContactUs>
+      </CopyrightsContainer>
     </Wrapper>
   );
 };
