@@ -23,7 +23,6 @@ export const Body = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   background-color: #000000;
 `;
 
@@ -32,12 +31,11 @@ export const Footer = styled.div`
   height: 10%;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
 `;
 
 export const Header = styled.div`
   width: 70vw;
-  height: 20%;
+  height: 23%;
   display: flex;
   box-shadow: 0 3px 1px -2px #0003, 0 2px 2px 0 #00000024, 0 1px 5px 0 #0000001f;
 `;
@@ -100,8 +98,54 @@ export const TypoGraphy = styled.div`
   justify-content: center;
   width: 50%;
   height: 90%;
-  font-size: 90px;
+  font-size: 85px;
   padding-left: 5%;
   border-left: 1px solid #bdbdbd;
   color: #000000de;
+`;
+
+export const FooterContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin-top: 1%;
+`;
+
+export const ShutterStockLogo = styled.img`
+  margin-top: 1%;
+`;
+
+export const CopyrightsContainer = styled.div`
+  width: 100vw;
+  border-top: 1px solid #bdbdbd;
+  height: 300px;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const TermsOfUseContainer = styled.div`
+  height: 80%;
+  width: 40%;
+`;
+
+export const TermsOfUse = styled.h3`
+  text-decoration: underline solid 3px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: normal;
+`;
+
+export const ContactUs = styled.div`
+  height: 80%;
+  width: 40%;
+`;
+
+export const ContactInfo = styled.h3`
+  font-size: 12px;
+  font-weight: normal;
 `;

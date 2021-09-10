@@ -16,8 +16,7 @@ import {
   TextInput,
   LetterCounter,
   ConverButton,
-} from "../stepper.style";
-import clsx from "clsx";
+} from "./stepper.style";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -37,7 +36,7 @@ const useStyles = makeStyles((theme: Theme) =>
       color: "#c7b9b4",
     },
     alternativeLabel: {},
-    active: {}, //needed so that the &$active tag works
+    active: {},
     completed: {},
     disabled: {},
     labelContainer: {
