@@ -1,5 +1,6 @@
 import React from "react";
-import VerticalLinearStepper from "../../commons/stepper/stepper";
+import Carousel from "../../commons/menuTab/menuTab";
+import Stepper from "../../commons/stepper/stepper";
 import {
   Body,
   Footer,
@@ -12,7 +13,7 @@ import {
   WayneHillsLogo,
   SignIn,
   HeadingContainer,
-  Carosel,
+  CaroselContainer,
   TypoGraphy,
   FooterContainer,
   ShutterStockLogo,
@@ -37,7 +38,9 @@ const LandingUI: React.FunctionComponent = () => {
           </HeaderRight>
         </Header>
         <HeadingContainer>
-          <Carosel></Carosel>
+          <CaroselContainer>
+            <Carousel />
+          </CaroselContainer>
           <TypoGraphy>The easiest way to make videos</TypoGraphy>
         </HeadingContainer>
       </Heading>
@@ -52,7 +55,7 @@ const LandingUI: React.FunctionComponent = () => {
         <path d="M0 40h1680V30S1340 0 840 0 0 30 0 30z" fill="#000" />
       </svg>
       <Body>
-        <VerticalLinearStepper />
+        <Stepper />
       </Body>
       <svg
         xmlns="http://www.w3.org/2000/svg"

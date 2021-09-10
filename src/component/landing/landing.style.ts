@@ -15,6 +15,7 @@ export const Heading = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 1%;
 `;
 
 export const Body = styled.div`
@@ -87,9 +88,11 @@ export const HeadingContainer = styled.div`
   align-items: center;
 `;
 
-export const Carosel = styled.div`
+export const CaroselContainer = styled.div`
   width: 40%;
   height: 100%;
+  padding-right: 2%;
+  padding-left: 2%;
 `;
 
 export const TypoGraphy = styled.div`
