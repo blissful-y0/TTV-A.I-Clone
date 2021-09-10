@@ -1,47 +1,9 @@
-# Getting Started with Create React App
+# Waynehills Landing Page Clone Coding
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+웨인힐스벤처스 홈페이지의 랜딩 페이지를 클론 코딩했습니다. 간단한 워드 카운트, Terms of Use 클릭 시 모달 창이 뜰 수 있도록 기능을 추가했습니다.
 
-## Available Scripts
+## 기능 시연 GIF
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# TTV-A.I-Clone
+![main](https://user-images.githubusercontent.com/71304578/132903454-7c0676d0-4256-431c-9c13-197e3cb113c0.gif)
+![modal](https://user-images.githubusercontent.com/71304578/132903471-49e1b06d-5544-406b-9f0b-99120064c19e.gif)
+![wordcount](https://user-images.githubusercontent.com/71304578/132903478-650178c7-2abb-41a3-84ed-875664052165.gif)
